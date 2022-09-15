@@ -1,0 +1,3 @@
+com\qa\rest\payload\POSTResponseData.class
+com\qa\rest\utils\RestUtils.class
+com\qa\rest\payload\PostPayload.class
