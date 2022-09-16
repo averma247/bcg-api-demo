@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.rest.test.Demo_NestedJSON">
+      <class name="com.qa.rest.test.Demo_JWTAuth">
         <methods>
-          <include name="readPostPayload"/>
-          <include name="readJSONPayload"/>
+          <include name="registerandgenerateToken"/>
+          <include name="getUsersBooksDetails"/>
         </methods>
-      </class> <!-- com.qa.rest.test.Demo_NestedJSON -->
+      </class> <!-- com.qa.rest.test.Demo_JWTAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

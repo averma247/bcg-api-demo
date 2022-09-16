@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T11:24:40 IST" name="Default suite" finished-at="2022-09-15T11:24:40 IST" duration-ms="68">
+  <suite started-at="2022-09-16T17:08:57 IST" name="Default suite" finished-at="2022-09-16T17:09:01 IST" duration-ms="3943">
     <groups>
     </groups>
-    <test started-at="2022-09-15T11:24:40 IST" name="Default test" finished-at="2022-09-15T11:24:40 IST" duration-ms="68">
-      <class name="com.qa.rest.test.Demo_NestedJSON">
-        <test-method is-config="true" signature="readGETPayload()[pri:0, instance:com.qa.rest.test.Demo_NestedJSON@4efc180e]" started-at="2022-09-15T11:24:40 IST" name="readGETPayload" finished-at="2022-09-15T11:24:40 IST" duration-ms="38" status="PASS">
+    <test started-at="2022-09-16T17:08:57 IST" name="Default test" finished-at="2022-09-16T17:09:01 IST" duration-ms="3943">
+      <class name="com.qa.rest.test.Demo_JWTAuth">
+        <test-method is-config="true" signature="registerandgenerateToken()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@4d465b11]" started-at="2022-09-16T17:08:57 IST" name="registerandgenerateToken" finished-at="2022-09-16T17:09:00 IST" duration-ms="3210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readGETPayload -->
-        <test-method signature="readJSONPayload()[pri:0, instance:com.qa.rest.test.Demo_NestedJSON@4efc180e]" started-at="2022-09-15T11:24:40 IST" name="readJSONPayload" finished-at="2022-09-15T11:24:40 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- registerandgenerateToken -->
+        <test-method signature="getUsersBooksDetails()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@4d465b11]" started-at="2022-09-16T17:09:00 IST" name="getUsersBooksDetails" finished-at="2022-09-16T17:09:01 IST" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readJSONPayload -->
-      </class> <!-- com.qa.rest.test.Demo_NestedJSON -->
+        </test-method> <!-- getUsersBooksDetails -->
+      </class> <!-- com.qa.rest.test.Demo_JWTAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
