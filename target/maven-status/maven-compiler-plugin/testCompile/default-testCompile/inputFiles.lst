@@ -1,4 +1,8 @@
-C:\Users\ajayverma\eclipse-workspace\RestAssuredDemo\src\test\java\com\qa\rest\test\DemoDELETERequest.java
-C:\Users\ajayverma\eclipse-workspace\RestAssuredDemo\src\test\java\com\qa\rest\test\DemoPUTRequest.java
-C:\Users\ajayverma\eclipse-workspace\RestAssuredDemo\src\test\java\com\qa\rest\test\DemoPOSTAPIRequest.java
-C:\Users\ajayverma\eclipse-workspace\RestAssuredDemo\src\test\java\com\qa\rest\test\DemoGETAPIRequest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_DBAutomation.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_JWTAuth.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoGETAPIRequest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoPOSTAPIRequest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoDELETERequest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoAuthAPITest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoPUTRequest.java
+/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_NestedJSON.java

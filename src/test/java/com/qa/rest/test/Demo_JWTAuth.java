@@ -11,7 +11,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.restassured.http.ContentType;
@@ -42,23 +41,23 @@ public class Demo_JWTAuth {
 		
 		try {
 			
-			  htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"\\extentReport.html");	 
+			  htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport.html");	 
 			  report = new ExtentReports();
 			  report.attachReporter(htmlReporter);
 			
 			  //configuration items to change the look and feel
 		        //add content, manage tests etc
-		        htmlReporter.config().setChartVisibilityOnOpen(true);
-		        htmlReporter.config().setDocumentTitle("Simple Automation Report");
+		        //htmlReporter.config().setChartVisibilityOnOpen(true);
+		        htmlReporter.config().setDocumentTitle("BCG API Automation Report");
 		        htmlReporter.config().setReportName("Test Report");
-		        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+		        //htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		        htmlReporter.config().setTheme(Theme.STANDARD);
-		        //htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+		        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
 			 
 			
 			baseURI = "https://bookstore.toolsqa.com";
 
-			usercreds.put("userName", "testuserajay111");
+			usercreds.put("userName", "testuserajay119");
 			usercreds.put("password", "TestPassword@2020");
 			
 			
@@ -144,7 +143,7 @@ public class Demo_JWTAuth {
 				.body("userId", equalTo(userId))
 				.body("username",equalTo(usercreds.get("userName")));
 			
-		test.log(Status.INFO,"Getting valid response.");
+		test.log(Status.INFO,"Getting valid response from server.");
 	
 		
 	}
@@ -167,6 +166,7 @@ public class Demo_JWTAuth {
 
     @AfterTest
     public void tearDown() {
+    	
         //to write or update test information to reporter
     	report.flush();
     }
