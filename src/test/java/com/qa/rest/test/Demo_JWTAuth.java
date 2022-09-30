@@ -51,7 +51,7 @@ public class Demo_JWTAuth {
 		        htmlReporter.config().setDocumentTitle("BCG API Automation Report");
 		        htmlReporter.config().setReportName("Test Report");
 		        //htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
-		        htmlReporter.config().setTheme(Theme.STANDARD);
+		        htmlReporter.config().setTheme(Theme.DARK);
 		        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
 			 
 			
