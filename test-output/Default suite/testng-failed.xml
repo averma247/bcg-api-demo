@@ -5,8 +5,10 @@
     <classes>
       <class name="com.qa.rest.test.Demo_JWTAuth">
         <methods>
+          <include name="tearDown"/>
           <include name="registerandgenerateToken"/>
           <include name="getUsersBooksDetails"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- com.qa.rest.test.Demo_JWTAuth -->
     </classes>

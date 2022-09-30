@@ -2,19 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-16T17:08:57 IST" name="Default suite" finished-at="2022-09-16T17:09:01 IST" duration-ms="3943">
+  <suite started-at="2022-09-30T12:42:29 IST" name="Default suite" finished-at="2022-09-30T12:42:33 IST" duration-ms="4521">
     <groups>
     </groups>
-    <test started-at="2022-09-16T17:08:57 IST" name="Default test" finished-at="2022-09-16T17:09:01 IST" duration-ms="3943">
+    <test started-at="2022-09-30T12:42:29 IST" name="Default test" finished-at="2022-09-30T12:42:33 IST" duration-ms="4521">
       <class name="com.qa.rest.test.Demo_JWTAuth">
-        <test-method is-config="true" signature="registerandgenerateToken()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@4d465b11]" started-at="2022-09-16T17:08:57 IST" name="registerandgenerateToken" finished-at="2022-09-16T17:09:00 IST" duration-ms="3210" status="PASS">
+        <test-method is-config="true" signature="registerandgenerateToken()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@f736069]" started-at="2022-09-30T12:42:29 IST" name="registerandgenerateToken" finished-at="2022-09-30T12:42:33 IST" duration-ms="3599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerandgenerateToken -->
-        <test-method signature="getUsersBooksDetails()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@4d465b11]" started-at="2022-09-16T17:09:00 IST" name="getUsersBooksDetails" finished-at="2022-09-16T17:09:01 IST" duration-ms="710" status="PASS">
+        <test-method signature="getUsersBooksDetails()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@f736069]" started-at="2022-09-30T12:42:33 IST" name="getUsersBooksDetails" finished-at="2022-09-30T12:42:33 IST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersBooksDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@f736069]" started-at="2022-09-30T12:42:33 IST" name="getResult" finished-at="2022-09-30T12:42:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUsersBooksDetails status=SUCCESS method=Demo_JWTAuth.getUsersBooksDetails()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@f736069] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rest.test.Demo_JWTAuth@f736069]" started-at="2022-09-30T12:42:33 IST" name="tearDown" finished-at="2022-09-30T12:42:33 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.rest.test.Demo_JWTAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
