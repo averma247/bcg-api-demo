@@ -1,8 +1,8 @@
-com/qa/rest/test/Demo_JWTAuth.class
-com/qa/rest/test/Demo_DBAutomation.class
-com/qa/rest/test/DemoPOSTAPIRequest.class
-com/qa/rest/test/Demo_NestedJSON.class
-com/qa/rest/test/DemoPUTRequest.class
-com/qa/rest/test/DemoDELETERequest.class
-com/qa/rest/test/DemoAuthAPITest.class
-com/qa/rest/test/DemoGETAPIRequest.class
+com\qa\rest\test\Demo_JWTAuth.class
+com\qa\rest\test\DemoDELETERequest.class
+com\qa\rest\test\DemoAuthAPITest.class
+com\qa\rest\test\DemoGETAPIRequest.class
+com\qa\rest\test\Demo_DBAutomation.class
+com\qa\rest\test\DemoPOSTAPIRequest.class
+com\qa\rest\test\DemoPUTRequest.class
+com\qa\rest\test\Demo_NestedJSON.class

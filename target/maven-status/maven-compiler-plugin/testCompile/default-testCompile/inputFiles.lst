@@ -1,8 +1,8 @@
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_DBAutomation.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_JWTAuth.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoGETAPIRequest.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoPOSTAPIRequest.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoDELETERequest.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoAuthAPITest.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/DemoPUTRequest.java
-/Users/ajayverma/eclipse-workspace/BCG-APIDemo/bcg-api-demo/src/test/java/com/qa/rest/test/Demo_NestedJSON.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\DemoPUTRequest.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\DemoDELETERequest.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\DemoPOSTAPIRequest.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\Demo_NestedJSON.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\DemoGETAPIRequest.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\DemoAuthAPITest.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\Demo_JWTAuth.java
+D:\BCG\API Demo\bcg-api-demo\src\test\java\com\qa\rest\test\Demo_DBAutomation.java

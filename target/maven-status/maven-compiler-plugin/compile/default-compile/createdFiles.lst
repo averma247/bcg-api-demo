@@ -1,5 +1,5 @@
-com/qa/rest/payload/POSTResponseData.class
-com/qa/rest/payload/GetResponseDataPayload.class
-com/qa/rest/payload/PostPayload.class
-com/qa/rest/payload/PersonalData.class
-com/qa/rest/utils/RestUtils.class
+com\qa\rest\payload\POSTResponseData.class
+com\qa\rest\payload\PersonalData.class
+com\qa\rest\utils\RestUtils.class
+com\qa\rest\payload\PostPayload.class
+com\qa\rest\payload\GetResponseDataPayload.class

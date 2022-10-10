@@ -52,7 +52,7 @@ public class Demo_JWTAuth {
 		        htmlReporter.config().setReportName("Test Report");
 		        //htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		        htmlReporter.config().setTheme(Theme.DARK);
-		        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+		        //htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
 			 
 			
 			baseURI = "https://bookstore.toolsqa.com";
